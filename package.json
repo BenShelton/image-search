@@ -1,0 +1,25 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenShelton/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BenShelton/template/issues"
+  },
+  "homepage": "https://github.com/BenShelton/template#readme",
+  "description": ""
+}
