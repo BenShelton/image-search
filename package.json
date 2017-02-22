@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1",
-    "mongodb": "^2.2.24"
+    "mongodb": "^2.2.24",
+    "requestify": "^0.2.5"
   },
   "devDependencies": {},
   "repository": {

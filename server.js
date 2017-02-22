@@ -74,8 +74,7 @@ app.get('/:search', (req, res) => {
       });
       // send JSON to client
       res.json(output);
-    })
-    .fail(apiRes => {
+    }).fail(apiRes => {
       console.log(apiRes.getCode());
       res.json({error: 'Search Failed'});
     }
