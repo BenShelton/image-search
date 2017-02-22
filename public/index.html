@@ -5,7 +5,7 @@
   <meta name="viewport"
      content="width=device-width, initial-scale=1, user-scalable=yes">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-  <title>URL Shortener Microservice</title>
+  <title>Image Search</title>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -15,8 +15,8 @@
     <h3>Usage</h3>
     <p>To search for an image, append the search terms to the URL:</p>
     <p><code>https://hidden-tor-57160.herokuapp.com/funny</code></p>
-    <p>You can also optionally add an offset to get different results:</p>
-    <p><code>https://hidden-tor-57160.herokuapp.com/funny?offset=10</code></p>
+    <p>You can also optionally add a page number to get different results:</p>
+    <p><code>https://hidden-tor-57160.herokuapp.com/funny?page=2</code></p>
     <h3>Results</h3>
     <p>Searching for an image will give you a list of results.<br />
     These will contain information on the images and clickable links.</p>
@@ -26,6 +26,11 @@
         Latest Searches
       </a>
     </p>
+    <hr />
+    <p>Image search thanks to:</p>
+    <a href="https://pixabay.com/">
+      <img src="https://pixabay.com/static/img/public/leaderboard_b.png" alt="Pixabay">
+    </a>
   </div>
 </body>
 </html>
